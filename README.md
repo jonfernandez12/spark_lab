@@ -15,11 +15,6 @@ https://docs.astral.sh/uv/getting-started/installation/
 ## Run locally
 
 ```bash
-uv run pyspark
-```
-
-## Run docker image
-
-```bash
-docker run -it --rm spark:python3 opt/spark/bin/pyspark
+uv sync 
+uv run jupyter-lab
 ```
